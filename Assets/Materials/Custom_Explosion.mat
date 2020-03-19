@@ -32,11 +32,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Amount: 0.792
-    - _ClipRange: 1
+    - _Amount: 0.387
+    - _ClipRange: 0.168
     - _Glossiness: 0.5
     - _Metallic: 0
     - _Period: 1
-    - _RampOffset: -0.121
+    - _RampOffset: -0.184
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
