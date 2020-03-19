@@ -30,8 +30,8 @@ Material:
     m_Floats:
     - _Glossiness: 0.5
     - _Metallic: 0
-    - _Snow: 0.12
-    - _SnowDepth: 0
+    - _Snow: 0.03
+    - _SnowDepth: 0.472
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _MainColor: {r: 1, g: 0, b: 0, a: 1}
