@@ -954,9 +954,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   curShader: {fileID: 4800000, guid: c7cbf0bc6cda23b4b84289b6b5a06e27, type: 3}
-  brightnessAmount: 0.5
-  saturationAmount: 2
-  contrastAmount: 1.75
+  brightnessAmount: 1.24
+  saturationAmount: 1
+  contrastAmount: 1
 --- !u!1 &1710008724
 GameObject:
   m_ObjectHideFlags: 0
