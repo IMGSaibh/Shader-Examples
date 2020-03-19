@@ -1,5 +1,5 @@
 # Shader-Examples
-Implementation of basic Shader, Image_Effects and some advance Shader-technique
+Implementation of basic Shader, Image_Effects and some advance Shader-Techniques
 
 ## Hologram
 ![](https://github.com/IMGSaibh/Shader-Examples/blob/master/gif/Hologram.gif) 
