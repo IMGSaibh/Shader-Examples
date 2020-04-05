@@ -1,6 +1,9 @@
 # Shader-Examples
 Implementation of basic Shader, Image_Effects and some advance Shader-Techniques. Some of those examples are shown below
 
+## Fur Shader
+Fur.JPG
+![](https://github.com/IMGSaibh/Shader-Examples/blob/master/gif/Fur.JPG)
 ## OldFilmShader
 ![](https://github.com/IMGSaibh/Shader-Examples/blob/master/gif/oldFilmShader.gif)
 ## Hologram Unlit Shader
