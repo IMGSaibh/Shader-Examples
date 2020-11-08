@@ -24,9 +24,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Amount: 0.185
+    - _Amount: 0.085
     - _Amplitude: 1
-    - _CutOutThresh: 0.895
+    - _CutOutThresh: 0.429
     - _Distance: 1
     - _Speed: 5
     - _Transparency: 0.5
