@@ -87,7 +87,7 @@
                 //SV-Target = Rendertarget (e.g. Framebuffer of the Screen)
                 fixed4 frag (v2f i) : SV_Target
                 {
-                    // sample the texture
+                    //sample the texture
                     //col = Color (r,g,b,a)
                     fixed4 col = tex2D(_MainTex, i.uv) + _TintColor;
                     col.a = _Transparency;

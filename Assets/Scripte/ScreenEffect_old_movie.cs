@@ -64,11 +64,13 @@ public class ScreenEffect_old_movie : MonoBehaviour
                 material.SetFloat("_RandomValue", randomValue);
             }
 
+            //render result
             Graphics.Blit(sourceTexture, destTexture, material);
 
         }
         else
         {
+            //render result
             Graphics.Blit(sourceTexture, destTexture);
         }
     }
