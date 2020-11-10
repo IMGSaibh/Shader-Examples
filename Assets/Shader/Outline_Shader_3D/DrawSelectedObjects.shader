@@ -10,7 +10,6 @@ Shader "Custom/DrawSelectedObjects"
         ZTest Always
         Lighting Off
 
-        //Tags { "RenderType" = "Opaque" }
         Pass
         {
             CGPROGRAM
@@ -36,6 +35,7 @@ Shader "Custom/DrawSelectedObjects"
                 return o;
             }
 
+            //pixel shader
             half4 frag (v2f i) : SV_Target
             {
                 return half4(1,1,1,1);
