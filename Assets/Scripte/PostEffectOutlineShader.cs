@@ -44,5 +44,7 @@ public class PostEffectOutlineShader : MonoBehaviour
         //copy the temporary RT to the final image
         Graphics.Blit(tempRT, destination, postOutlineMat);
         RenderTexture.ReleaseTemporary(tempRT);
+        RenderTexture.ReleaseTemporary(destination);
+
     }
 }
