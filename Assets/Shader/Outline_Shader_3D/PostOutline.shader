@@ -38,7 +38,7 @@ Shader "Custom/PostOutline"
 
                 //[TextureName]_TexelSize is a float4.
                 /*
-                information about dimension and how much screen space is used by on texel
+                information about dimension and how much screen space is used by one texel
                 x = 1.0/width
                 y = 1.0/width
                 z = width
