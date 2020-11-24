@@ -26,7 +26,7 @@ Material:
     m_Floats:
     - _Glossiness: 0.5
     - _Metallic: 0.52
-    - _OutlineThickness: 0
+    - _OutlineThickness: 0.311
     - _Smoothness: 0.48
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}

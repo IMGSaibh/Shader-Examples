@@ -32,7 +32,7 @@ MonoBehaviour:
     value: 1
   outlineColor:
     overrideState: 1
-    value: {r: 0.95461273, g: 1, b: 0, a: 1}
+    value: {r: 1, g: 0.48117012, b: 0, a: 1}
   finalBlend:
     overrideState: 1
-    value: 0
+    value: 0.522
