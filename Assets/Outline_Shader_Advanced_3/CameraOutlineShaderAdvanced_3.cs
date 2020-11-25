@@ -2,17 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PostEffectOutlineShader : MonoBehaviour
+public class CameraOutlineShaderAdvanced_3 : MonoBehaviour
 {
     Camera camSelectedObjects;
     public Shader post_outline_shader;
-    public Shader draw_Selected_Objects_shader;
+    public Shader masking_outline_shader;
     Material postOutlineMat;
+    public bool showMaskingTexture = false;
+    public Color outlineColor;
+    [Range(1.0f, 2.0f)]
+    public float distance = 1;
+
     void Start()
     {
         //attachedcamera = GetComponent(Camera);
         postOutlineMat = new Material(post_outline_shader);
         camSelectedObjects = new GameObject().AddComponent<Camera>();
+
     }
 
     /// <summary>
@@ -37,14 +43,21 @@ public class PostEffectOutlineShader : MonoBehaviour
         camSelectedObjects.targetTexture = tempRT;
 
         //render all objects with draw_Selected_Objects_shader.
-        camSelectedObjects.RenderWithShader(draw_Selected_Objects_shader, "");
+        camSelectedObjects.RenderWithShader(masking_outline_shader, "");
 
+        postOutlineMat.SetFloat("_Distance", distance);
+        postOutlineMat.SetColor("_OutlineColor", outlineColor);
         postOutlineMat.SetTexture("_SceneTex", source);
-
+        //_SceneTex
         //copy the temporary RT to the final image
-        Graphics.Blit(tempRT, destination, postOutlineMat);
+        if (showMaskingTexture)
+        {
+            Graphics.Blit(tempRT, destination);
+        }
+        else
+            Graphics.Blit(tempRT, destination, postOutlineMat);
+
         RenderTexture.ReleaseTemporary(tempRT);
-        RenderTexture.ReleaseTemporary(destination);
 
     }
 }

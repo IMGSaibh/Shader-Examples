@@ -95,13 +95,8 @@ Shader "Custom/PostOutline"
                     }
                     //some bias
                     outline *= 0.005;
-                    
+                    return tex2D(_SceneTex, i.uv.xy) + outline * _OutlineColor;
 
-                    half4 color = tex2D(_SceneTex, i.uv.xy) + outline; //half4(0, 1, 0, 1);
-                    
-                    //color.r = max(tex2D(_SceneTex, i.uv.xy).r - outline, 0);
-                    color.r = tex2D(_SceneTex, i.uv.xy).r;
-                    return color;
                 }
             ENDCG
         }//end pass

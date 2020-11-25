@@ -320,6 +320,7 @@ MonoBehaviour:
   objectRenderer:
   - {fileID: 251872240}
   - {fileID: 1909998670}
+  - {fileID: 2087055426}
   thickness: 1
   color: {r: 0, g: 0, b: 0, a: 0}
   showMaskingTexture: 0

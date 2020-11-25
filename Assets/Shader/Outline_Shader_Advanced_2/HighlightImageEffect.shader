@@ -52,12 +52,14 @@
 				return abs(tex2D(_HighlightTexture, uv + direction) - tex2D(_HighlightTexture, uv - direction));
 			}
 
+
 			fixed4 frag (v2f i) : SV_Target
 			{
 				float w = _Size / _ScreenParams.x;
 				float h = _Size / _ScreenParams.y;
 
 				fixed4 c = tex2D( _HighlightTexture, i.uv );
+
 
 				//
 				// This is the object - don't draw over it
@@ -76,7 +78,7 @@
 				for (int testNum = 0; testNum < SampleCount; testNum++)
 				{
 					float degree = stageSize * testNum;
-					accum += SampleDirection( i.uv, float2(sin(degree) * w, cos(degree) * h) );
+					accum += SampleDirection( i.uv, float2(sin(degree) * w, cos(degree) * h));
 				}
 
 				//

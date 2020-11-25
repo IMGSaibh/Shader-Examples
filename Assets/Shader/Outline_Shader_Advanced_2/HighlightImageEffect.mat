@@ -71,7 +71,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Size: 4.2
+    - _Size: 2.4
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -80,6 +80,6 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _ColorMain: {r: 1, g: 0.400387, b: 0, a: 1}
+    - _ColorMain: {r: 0, g: 0, b: 0, a: 1}
     - _ColorOccluded: {r: 0, g: 0, b: 0, a: 0.29411766}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

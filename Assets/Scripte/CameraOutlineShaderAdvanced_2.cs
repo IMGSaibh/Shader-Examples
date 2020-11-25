@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class CameraOutline : MonoBehaviour
+public class CameraOutlineShaderAdvanced_2 : MonoBehaviour
 {
 
     //For Antialaising in Texture draw before post processing 
@@ -36,6 +36,7 @@ public class CameraOutline : MonoBehaviour
         BuildComandBuffer();
 
     }
+
 
     private void OnDisable()
     {
