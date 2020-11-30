@@ -1,6 +1,6 @@
 ﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
-Shader "Custom/Outline_Postprocess"
+Shader "Custom/Outline_Blur"
 {
 	Properties
 	{
@@ -85,8 +85,6 @@ Shader "Custom/Outline_Postprocess"
 						return color;
 					}
 				ENDCG
-
-
 			}//end pass
 	}//end subshader
 }//end shader
