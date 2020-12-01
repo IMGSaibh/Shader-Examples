@@ -9,6 +9,8 @@
 		_Thickness("_Thickness", Range(0.1, 4.0)) = 1.0
 		_Opacity("_Opacity", Range(0.001,1.0)) = 0.25
 	}
+
+
 	SubShader
 	{
 		Blend SrcAlpha OneMinusSrcAlpha
@@ -58,7 +60,7 @@
 					float v = 0;
 					_Thickness *= _MainTex_TexelSize.xy;
 					
-					//simple Kernel without vaules, add multiplikation at the and for different kernel
+					//simple 3x3 Kernel default value 1 in each row, add multiplikation at the and for a different kernel
 					//first row of kernel									
 					half a1 = tex2D(_MainTex, i.uv + _Thickness * float2(-1,  1));
 					half a2 = tex2D(_MainTex, i.uv + _Thickness * float2(0,   1));

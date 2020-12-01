@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
+//set up postprocessing stack
+//https://learn.unity.com/tutorial/creating-a-custom-post-processing-effect-for-lwrp#5e4569dbedbc2a09c4baf37a
 namespace ScenarioArchitect
 {
-    public class Outline_Postprocessing : MonoBehaviour
+    public class Outline : MonoBehaviour
     {
 
         Camera camSelectedObjects;
