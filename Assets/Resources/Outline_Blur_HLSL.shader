@@ -1,4 +1,4 @@
-﻿Shader "Unlit/NewUnlitShader"
+﻿Shader "Custom/Outline_Blur_HLSL"
 {
 	Properties
 	{
