@@ -1,4 +1,4 @@
-﻿Shader "Custom/Outline_Blur_HLSL"
+﻿Shader "Hidden/Outline_Blur_HLSL"
 {
 	Properties
 	{
