@@ -26,11 +26,12 @@ Material:
     m_Floats:
     - _Cutoff: 0.418
     - _CutoffEnd: 0.793
-    - _EdgeFade: 0.633
-    - _FurLength: 0.178
+    - _EdgeFade: 0
+    - _FurLength: 0.364
     - _Glossiness: 0
-    - _GravityStrength: 0.637
-    - _Metallic: 0
+    - _GravityStrength: 0.564
+    - _Metallic: 0.106
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Gravity: {r: 0, g: 0, b: 0, a: 0}
+    - _Gravity: {r: 2.16, g: 2.99, b: 0.91, a: 4.05}
+  m_BuildTextureStacks: []
