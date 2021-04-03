@@ -8,7 +8,7 @@ Implementation of basic Shader, Image_Effects and some advance Shader-Techniques
 # CG Standard Library
 [https://developer.download.nvidia.com/cg/index_stdlib.html](https://developer.download.nvidia.com/cg/index_stdlib.html)
 ## 2D and 3D Outline Outline Shader
-![](https://github.com/IMGSaibh/Shader-Examples/blob/master/gif/Outline_Shader_2D.JPG) ![](https://github.com/IMGSaibh/Shader-Examples/blob/master/gif/Outline_Shader_3D.JPG)
+![](https://github.com/IMGSaibh/Shader-Examples/blob/master/gif/Outline_Shader_3D.JPG)![](https://github.com/IMGSaibh/Shader-Examples/blob/master/gif/Outline_Shader_2D.JPG)
 ## Fur Shader
 ![](https://github.com/IMGSaibh/Shader-Examples/blob/master/gif/Fur.JPG)
 ## OldFilmShader
