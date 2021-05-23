@@ -17,6 +17,7 @@ public class CameraOutlineShaderAdvanced : MonoBehaviour
         //attachedcamera = GetComponent(Camera);
         postOutlineMat = new Material(post_outline_shader);
         camSelectedObjects = new GameObject().AddComponent<Camera>();
+        camSelectedObjects.name = "MaskingCameraForOutline";
     }
 
     /// <summary>

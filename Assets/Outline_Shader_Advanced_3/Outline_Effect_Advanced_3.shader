@@ -59,8 +59,7 @@
 
                     half4 frag(v2f i) : COLOR
                     {
-                        // Simple sobel filter for the red channel of tempRT.
-
+                        // Simple sobel filter for tempRT.
                         float d = _MainTex_TexelSize.xy * _Distance;
                                 
                         half a1 = tex2D(_MainTex, i.uv + d * float2(-1, -1)).r;

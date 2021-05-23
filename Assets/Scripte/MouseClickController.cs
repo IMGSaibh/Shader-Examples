@@ -30,7 +30,7 @@ public class MouseClickController : MonoBehaviour
 
                 if (target.transform.childCount > 0)
                     foreach (Transform child in target.transform)
-						child.gameObject.layer = LayerMask.NameToLayer("PostProcessing");
+						child.gameObject.layer = LayerMask.NameToLayer("Outline");
 
 				else
 					target.layer = LayerMask.NameToLayer("PostProcessing");

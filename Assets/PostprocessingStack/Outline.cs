@@ -4,7 +4,7 @@ using UnityEngine.Rendering.PostProcessing;
 
 
 [Serializable]
-[PostProcess(typeof(Outline), PostProcessEvent.AfterStack, "Custom/Outline")]
+[PostProcess(typeof(Outline), PostProcessEvent.AfterStack, "Custom/Outline_Blur_HLSL")]
 public sealed class Outline : PostProcessEffectSettings
 {
     [Range(0f, 4f), Tooltip("Grayscale effect intensity.")]
@@ -25,7 +25,6 @@ public sealed class OutlineRenderer : PostProcessEffectRenderer<Outline>
         sheet.properties.SetTexture("_SceneTex", settings.sceneText);
         sheet.properties.SetFloat("_Thickness", settings.thickness);
         sheet.properties.SetFloat("_Opacity", settings.opacity);
-
         context.command.BlitFullscreenTriangle(context.source, context.destination, sheet, 0);
     }
 }

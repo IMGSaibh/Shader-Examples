@@ -112,7 +112,6 @@ public class CameraOutlineShaderAdvanced_2 : MonoBehaviour
         }
         //ReleaseAll();
 
-        BuildComandBuffer();
     }
 
 }

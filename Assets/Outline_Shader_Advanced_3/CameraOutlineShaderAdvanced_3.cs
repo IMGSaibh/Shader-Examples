@@ -10,7 +10,7 @@ public class CameraOutlineShaderAdvanced_3 : MonoBehaviour
     Material postOutlineMat;
     public bool showMaskingTexture = false;
     public Color outlineColor;
-    [Range(1.0f, 2.0f)]
+    [Range(1.0f, 3.0f)]
     public float distance = 1;
 
     void Start()
