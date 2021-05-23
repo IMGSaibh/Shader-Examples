@@ -7,6 +7,10 @@ Implementation of basic Shader, Image_Effects and some advance Shader-Techniques
 4. [build in shader functions unity](https://docs.unity3d.com/2019.3/Documentation/Manual/SL-BuiltinFunctions.html)
 # CG Standard Library
 [https://developer.download.nvidia.com/cg/index_stdlib.html](https://developer.download.nvidia.com/cg/index_stdlib.html)
+
+## Clipping Plane Shader
+![](https://github.com/IMGSaibh/Shader-Examples/blob/master/gif/Outline_Shader_3D.JPG)![](https://github.com/IMGSaibh/Shader-Examples/blob/master/gif/ClippingPlane.JPG)
+
 ## 2D and 3D Outline Outline Shader
 ![](https://github.com/IMGSaibh/Shader-Examples/blob/master/gif/Outline_Shader_3D.JPG)![](https://github.com/IMGSaibh/Shader-Examples/blob/master/gif/Outline_Shader_2D.JPG)
 ## Fur Shader
