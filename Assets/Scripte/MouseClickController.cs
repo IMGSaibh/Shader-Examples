@@ -11,7 +11,6 @@ public class MouseClickController : MonoBehaviour
 	private bool isMouseDrag;
 	public GameObject target;
 
-
 	// Update is called once per frame
 	void Update()
 	{

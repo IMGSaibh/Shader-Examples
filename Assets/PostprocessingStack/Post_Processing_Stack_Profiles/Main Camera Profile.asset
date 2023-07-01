@@ -18,10 +18,10 @@ MonoBehaviour:
     value: 1
   thickness:
     overrideState: 1
-    value: 3.25
+    value: 1.89
   opacity:
     overrideState: 1
-    value: 0.73
+    value: 0.502
   sceneText:
     overrideState: 1
     value: {fileID: 2800000, guid: 95ff654ac014f5c43a835edcf30be4a2, type: 3}
